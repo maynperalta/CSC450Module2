@@ -1,15 +1,20 @@
-//============================================================================
-// Name        : CSC450Module2.cpp
-// Author      : MP
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
-//============================================================================
-
 #include <iostream>
-using namespace std;
+#include <string>
 
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	std::string str1, str2, str3, str4, str5, str6;
+	
+	std::cout << "Hello. Welcome to the String Concatenation application." << std::endl;
+	std::cout << "Please enter a string: ";
+	std::cin >> str1;
+	std::cout << "Please enter another string: ";
+	std::cin >> str2;
+	
+	std::cout << "String concatenation 1" << std::endl; 
+	std::cout << "======================" << std::endl;
+	std::cout << str1 + str2 << std::endl;
+	
 	return 0;
+	
+	
 }
